@@ -1,0 +1,145 @@
+.container {
+  height: 700px;
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+}
+
+.container__box {
+  display: flex;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  gap: 100px;
+}
+.container__box {
+  width: 40%;
+  justify-content: center;
+
+  margin-left: 400px;
+}
+.container h1 {
+  padding: 25px;
+  text-align: center;
+  font-size: 40px;
+}
+.container__box button {
+  border-radius: 10px;
+  height: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 24rem;
+  gap: 1rem;
+  border-radius: 1em;
+  padding-bottom: 90px;
+}
+
+input,
+textarea {
+  padding: 1.2rem;
+  background: transparent;
+  border: 2px solid var(--secondary-color);
+  border-radius: 20px;
+}
+
+textarea {
+  height: 180px;
+}
+.contact {
+  padding: 20px;
+}
+
+.contact i {
+  font-size: 15px;
+  padding: 18px;
+}
+.message {
+  font-size: 20px;
+}
+
+.message h2 {
+  padding-left: 70px;
+}
+
+.message button:hover {
+  background-color: var(--secondary-color);
+}
+.message button{
+  background-color: var(--color);
+}
+
+.media {
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+  float: right;
+  margin: 15px;
+}
+.media li:hover {
+  transform: translateY(-10px);
+}
+.media li {
+  padding: 15px;
+  font-size: 40px;
+}
+.contact h1 {
+  
+  font-size: 30px;
+}
+
+.container h1::after {
+  content: "";
+  background: var(--secondary-color);
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 50px;
+}
+
+.socials {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.socials a {
+  font-size: 20px;
+  display: inline-block;
+  border: 1px solid var(--color);
+  width: 50px;
+  padding: 20px;
+  border-radius: 4px;
+}
+.socials a:hover {
+  background-color: var(--primary-color);
+}
+footer {
+  padding: 15px;
+}
+
+.footer ul {
+  text-align: center;
+}
+
+.footer ul li {
+  display: inline-block;
+  padding: 0px 30px;
+  text-decoration-line: none;
+  background-color: var(--secondary-color);
+}
+
+.footer ul li a {
+  text-decoration: none;
+}
+
+.copy-right {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.footer {
+  background-color: var(--color);
+  
+}

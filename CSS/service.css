@@ -1,0 +1,71 @@
+.content {
+  background: var(--primary-color);
+  height: 80vh;
+}
+.service .content__container h1 {
+  text-align: center;
+  padding-top: 25px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.service .row {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+  margin-left: 15px;
+  padding: 50px;
+}
+.service .text {
+  width: 16%;
+  padding: 1px;
+}
+
+.service .text h3 {
+  text-align: center;
+}
+
+.content__container h1::after {
+  content: "";
+  background: var(--secondary-color);
+  display: block;
+  height: 3px;
+  width: 170px;
+  margin: 20px auto 50px;
+}
+
+.service .icon {
+  font-size: 30px;
+  margin: 20px auto;
+  padding: 18px;
+  height: 70px;
+  width: 70px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 50%;
+  color: var(--secondary-color);
+}
+.service p {
+  font-size: 15px;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.service span {
+  color: var(--secondary-color);
+  transition: 0.5s;
+}
+
+.service .text:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.5));
+  cursor: pointer;
+  color: var(--secondary-color);
+  box-shadow: -5px 5px 10px 0 rgba(0, 0, 0, 0.4);
+  transition: 0.5s;
+}
+.service .text:hover .icon {
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+.service .text:hover p {
+  color: black;
+}

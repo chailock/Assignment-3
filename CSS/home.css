@@ -1,0 +1,107 @@
+.intro .nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+}
+
+.nav a {
+  text-decoration-line: none;
+}
+
+.nav__link {
+  margin: 20px;
+}
+
+.nav__link li {
+  display: inline;
+  padding: 16px;
+  list-style-type: none;
+}
+.nav__link li a {
+  font-size: 20px;
+  color: var(--secondary-color);
+}
+
+.nav__link li a:hover {
+  background-color: var(--primary-color);
+}
+
+.nav .name {
+  font-size: 24px;
+  font-style: italic;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+.nav .surname {
+  color: var(--primary-color);
+}
+
+.nav h1 {
+  margin: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.download-btn {
+  display: flex;
+  cursor: pointer;
+  padding: 16px 09px;
+  border-radius: 1em;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.nav button {
+  border-radius: 1em;
+  background-color: var(--secondary-color);
+  margin: 0px;
+  width: 142px;
+  height: 40px;
+  border-color: var(--primary-color);
+  line-height: 25px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.intro {
+  height: 90vh;
+  background-image: url(../CSS/Assets/home.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+}
+.intro__home {
+  padding: 170px;
+}
+
+.intro__home p {
+  font-size: 20px;
+  color: var(--secondary-color);
+}
+
+.intro__home h1 {
+  font-size: 70px;
+  font-weight: 900px;
+}
+
+.intro__home button {
+  margin: 30px;
+  border-radius: 1em;
+  background-color: var(--secondary-color);
+  width: 120px;
+  height: 40px;
+  border-color: var(--secondary-color);
+  margin-right: 20px;
+}
+
+.intro__home button:hover {
+  background-color: transparent;
+}
+
+.intro__home span {
+  color: var(--secondary-color);
+}
